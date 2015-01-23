@@ -8,7 +8,7 @@ run = Runabove(application_key, application_secret)
 
 # Request an URL to securely authenticate the user
 print "You should login here: %s" % run.get_login_url()
-raw_input("When you are logged, press Enter")
+# raw_input("When you are logged, press Enter")
 
 # Show the consumer key
 print "Your consumer key is: %s" % run.get_consumer_key()
